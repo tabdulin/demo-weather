@@ -1,0 +1,12 @@
+spring:
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+app:
+  openweathermap:
+    config:
+      connectionTimeoutSeconds: 60
+    api:
+      baseUrl: http://api.openweathermap.org/data/2.5
+      key: ${OWM_API_KEY:#{null}}
+
