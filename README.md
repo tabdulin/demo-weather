@@ -76,7 +76,7 @@ To run an application run
 ### Docker
 You need the docker of version 17.05 and higher since Dockerfile contains multistage build.
 
-`docker build -t tabdulin/weather . && docker run -e OWM_API_KEY=<your-openweathermap-api-key> -p 8080:8080 tabdulin/weather`
+`docker build -t tabdulin/demo-weather . && docker run -e OWM_API_KEY=<your-openweathermap-api-key> -p 8080:8080 tabdulin/demo-weather`
 
 ## Test application
 
